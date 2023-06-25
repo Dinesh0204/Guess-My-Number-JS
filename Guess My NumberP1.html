@@ -1,0 +1,48 @@
+<html>
+
+<head>
+    <link rel='stylesheet ' href="p1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <title>Guessing Number</title>
+</head>
+
+<body>
+
+    <div class="top">
+        <h1>Guess My Number</h1>
+    </div>
+    <div class="secretBox">
+        <p id="questionMark">?</p>
+
+    </div>
+    <section class="Bottom">
+        <div class="left">
+            <h6 id="Number_statement">Enter number bwtween 1-20 </h6>
+            <input type="number" class="in" placeholder="eg.1">
+            <button type="button" class="check">
+                CHECK..
+            </button>
+
+        </div>
+        <div class="right">
+            <h3 id="first">Start Guessing....</h3>
+            <h3 id="second">Score:<span class="score_label">20</span></h3>
+            <h3 id="third">HighScore:<span class="highScore_Label">0</span></h3>
+        </div>
+    </section>
+    <div class="perfect hidden">
+        <button class='reset'><img src='Restart.png' style='width: 40px;height: 40px;'></button>
+        <p>Wowww what a Perfect Guess!!!!</p>
+        <h6 class='HSM'></h6>
+
+    </div>
+    <div class="overlay hidden"></div>
+    <script src="p1.js"></script>
+
+
+
+</body>
+
+</html>
