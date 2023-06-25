@@ -37,3 +37,10 @@ HTML
 CSS
 
 JavaScript
+![image](https://github.com/Dinesh0204/Guess-My-Number-JS/assets/72650101/e392a700-4104-482a-a110-8e0d6eb509dd)
+
+![image](https://github.com/Dinesh0204/Guess-My-Number-JS/assets/72650101/68c85610-847b-4f4b-8251-fb7929320dea)
+
+
+
+
